@@ -36,6 +36,10 @@
     margin: auto;
 }
 
+.center{
+    text-align: center;
+}
+
 /* nav style area starts */
 .main-manu{
     display: flex;
@@ -114,4 +118,103 @@ nav li{
 /* works style starts */
 .works{
     text-align: center;
+}
+
+/* skills style start */
+
+.skills-container{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-tyitle{
+    margin: 30px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+.sklill-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* resume styles starts */
+.resume{
+    display: flex;
+    gap: 10px;
+}
+.re-main-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.re-single-section{
+    margin: 30px 0;
+    padding: 10px;
+    border-bottom: 1px solid #D1D1D1;
+}
+.re-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.re-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.re-discription{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* footer style area */
+.fo-area{
+    background: #FFF8F3;
+    margin-top: 100px;
+   
+
+}
+.fo-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 200px 0;
+}
+.fo-connect{
+    
+}
+.fo-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.fo-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0;
+}
+
+.form .for-input{
+    width: 100%;
+    padding: 20px 5px;
+    margin: 10px 0;
+}
+.form-text{
+    width: 100%;
+    margin: 10px 0;
 }
